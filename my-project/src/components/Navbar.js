@@ -25,7 +25,7 @@ const Navbar = () => {
           />
         </svg>
       </div>
-      <div className="pr-8 md:block">
+      <div className="pr-8 md:block hidden">
         <Link className="p-4" to="/">
           Home
         </Link>
