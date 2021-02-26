@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="bg-white h-screen flex flex-col justify-center items-center">
       <h1
         className="lg:text-9xl md:text-7xl sm:text-5xl
-        text-3xl font-black mb-14"
+        text-3xl font-black mb-14 text-center"
       >
         Welcome to Dustin's Portfolio Using React!
       </h1>
@@ -15,7 +15,7 @@ const Hero = () => {
       transition duration-300 ease-in-out flex items-center animate-bounce font-bold"
       >
         <svg
-          className="w-6 h-6"
+          className="w-6 h-6 mr-4"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
@@ -30,7 +30,7 @@ const Hero = () => {
         </svg>
         About Me
         <svg
-          className="w-6 h-6"
+          className="w-6 h-6 ml-4"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"

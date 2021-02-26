@@ -8,7 +8,9 @@ const Navbar = () => {
     relative shadow-sm font-mono text"
       role="navigation"
     >
-      <Link className="pl-4 font-bold" to="/">Welcome!</Link>
+      <Link className="pl-4 font-bold" to="/">
+        Welcome!
+      </Link>
       <div className="px-4 cursor-pointer md:hidden">
         <svg
           className="w-6 h-6"
