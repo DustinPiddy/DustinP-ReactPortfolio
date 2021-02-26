@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav
-      className="flex justify-between iteem-center h-16 bg-white text-blacklist
-    relative shadow-sm font-mono"
+      className="flex justify-between iteem-center h-16 bg-white text-black
+    relative shadow-sm font-mono text"
       role="navigation"
     >
-      <Link to="/">Egg</Link>
+      <Link className="pl-4 font-bold" to="/">Welcome!</Link>
       <div className="px-4 cursor-pointer md:hidden">
         <svg
           className="w-6 h-6"
@@ -26,16 +26,16 @@ const Navbar = () => {
         </svg>
       </div>
       <div className="pr-8 md:block hidden">
-        <Link className="p-4" to="/">
+        <Link className="p-4 font-bold" to="/">
           Home
         </Link>
-        <Link className="p-4" to="/about">
+        <Link className="p-4 font-bold" to="/about">
           About
         </Link>
-        <Link className="p-4" to="/projects">
+        <Link className="p-4 font-bold" to="/projects">
           Projects
         </Link>
-        <Link className="p-4" to="/contact">
+        <Link className="p-4 font font-bold" to="/contact">
           Contact
         </Link>
       </div>
