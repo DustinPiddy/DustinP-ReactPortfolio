@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({toggle}) => {
   return (
     <nav
       className="flex justify-between iteem-center h-16 bg-white text-black
@@ -11,7 +11,8 @@ const Navbar = () => {
       <Link className="pl-4 font-bold" to="/">
         Welcome!
       </Link>
-      <div className="px-4 cursor-pointer md:hidden">
+      <div className="px-4 cursor-pointer md:hidden"
+        onClick={toggle}>
         <svg
           className="w-6 h-6"
           fill="none"

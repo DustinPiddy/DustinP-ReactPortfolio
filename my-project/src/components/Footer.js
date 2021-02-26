@@ -6,7 +6,7 @@ const Footer = () => {
       className="flex justify-center items-center h-16
         bg-black text-white"
     >
-      <p>Spaceholder</p>
+      <p>Copyright @ 2021 Dustin Pidcock</p>
     </div>
   );
 };
