@@ -16,6 +16,20 @@ function App() {
     setIsOpen(!isOpen);
   };
 
+  useEffect(() => {
+    const hideMenu = () => {
+      if (window.innerWidth > 768 && isOpen) {
+        setIsOpen(false);
+        console.log("I resized");
+      }
+    };
+    window.addEventListener("resize", hideMenu);
+
+    return () => {
+      window.removeEventListener("resize", hideMenu);
+    };
+  });
+
   return (
     <>
       <Navbar toggle={toggle} />
